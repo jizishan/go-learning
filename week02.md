@@ -2,7 +2,7 @@
 答：不用，在dao层，一般会定义自己的错误，以便进行业务逻辑处理
 
 
-
+```go
 package main
 
 import (
@@ -70,3 +70,4 @@ func main() {
 		fmt.Printf("%v\n", err)
 	}
 }
+```
